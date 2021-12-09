@@ -8,10 +8,24 @@ const uploadAgn = require("../middleware/allData");
 
 const fs=require("fs");
 
-//uploadAgn.array("pictures", 5), :- Not Working, so have to give only 5 files as input 
+//uploadAgn.array("pictures", 5), :- Working, but have to provide only pictures as input:-> 
+
+/* CORRECT INPUT
+pictures : screenshot1
+pictures : screenshot2
+pictures : screenshot3
+pictures : screenshot4
+*/
+
+/* WRONG INPUT
+pictures[0] : screenshot1
+pictures[1] : screenshot2
+pictures[2] : screenshot3
+pictures[3] : screenshot4
+*/ // If inputted like this, the limiting files to 5 wont work
 
 //CREATING PROFILE & ADDING 5 FILES TO PROFILE
-router.post("/multiple", uploadAgn.any("pictures"),async(req,res)=>{
+router.post("/multiple", uploadAgn.array("pictures",5),async(req,res)=>{
     const filePaths=req.files.map((file)=> file.path);
     try{
         const gallery=await Gallery.create({
