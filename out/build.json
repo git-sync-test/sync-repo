@@ -2,6 +2,22 @@
   "secrets": [],
   "events": {},
   "integrations": {
+    "slack": {
+      "id": "7ae5522b-50bb-422c-b035-c3740495981a",
+      "name": "slack",
+      "workflows": {},
+      "config": {
+        "values": {
+          "paragonLink": true,
+          "description": "A description for the integration's purpose.",
+          "overview": "A long-form description for the integration's purpose.",
+          "workflowMeta": {},
+          "sharedMeta": {
+            "inputs": []
+          }
+        }
+      }
+    },
     "pandadoc": {
       "id": "2a52d4cf-4813-417d-b050-c57919ff80b5",
       "name": "pandadoc",
