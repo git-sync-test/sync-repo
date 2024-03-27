@@ -35,7 +35,7 @@ export default class extends Workflow<
       autoRetry: false,
       description: 'description',
       code: function yourFunction(parameters, libraries) {
-        return 1;
+        return 1234;
       },
       parameters: {},
     });
@@ -52,12 +52,12 @@ export default class extends Workflow<
   /**
    * The name of the workflow, used in the Dashboard and Connect Portal.
    */
-  name: string = 'New Workflow112';
+  name: string = 'New Workflow11245';
 
   /**
    * A user-facing description of the workflow shown in the Connect Portal.
    */
-  description: string = 'Add a user-facing description of this workflow';
+  description: string = 'Add a user-facing description of this workflow1123';
 
   /**
    * Define workflow-level User Settings. For integration-level User
