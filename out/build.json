@@ -1,0 +1,110 @@
+{
+  "secrets": [],
+  "events": {},
+  "integrations": {
+    "pandadoc": {
+      "id": "2a52d4cf-4813-417d-b050-c57919ff80b5",
+      "name": "pandadoc",
+      "workflows": {},
+      "config": {
+        "values": {
+          "paragonLink": true,
+          "description": "Manage signatures, agreements, and documents in PandaDoc",
+          "overview": "Connect to your PandaDoc account to manage your documents, contacts, and templates in PandaDoc. Increase your team’s productivity by keeping your PandaDoc account up to date - without manual data entry.\n              \nOur PandaDoc integration enables you to:\n           \n• Programmatically send documents from your PandaDoc account \n• Manage agreements in your PandaDoc account\n• Sync documents in your PandaDoc account",
+          "accentColor": "#14bd3e",
+          "workflowMeta": {},
+          "sharedMeta": {
+            "inputs": []
+          }
+        }
+      }
+    },
+    "googleCalendar": {
+      "id": "f88163bf-3541-476f-bcc7-beb6f3ea2595",
+      "name": "googleCalendar",
+      "workflows": {
+        "4ee4af41-246d-443f-8a45-dc4c598a44d1": {
+          "id": "4ee4af41-246d-443f-8a45-dc4c598a44d1",
+          "name": "New Workflow",
+          "steps": [
+            {
+              "id": "44c83d81-e184-449a-9720-c33ad6057bb9",
+              "type": "TRIGGER/ACTION",
+              "parameters": {
+                "intent": "GOOGLE_CALENDAR_TRIGGER_EVENT_CREATED",
+                "actionType": "googleCalendar",
+                "credentials": [],
+                "actionParameters": [
+                  {
+                    "key": "collapseRecurringEventUpdates",
+                    "source": {
+                      "type": "VALUE",
+                      "value": "false",
+                      "dataType": "ANY"
+                    }
+                  }
+                ]
+              },
+              "next": "3c3af3ad-3892-4568-9e52-730f3cd15123",
+              "_migrations": {},
+              "description": "description"
+            },
+            {
+              "id": "3c3af3ad-3892-4568-9e52-730f3cd15123",
+              "type": "ACTION/FUNCTION",
+              "parameters": {
+                "parameters": [],
+                "code": "function yourFunction(parameters, libraries) {\n                return 1;\n            }",
+                "retryOnFailure": false
+              },
+              "next": null,
+              "_migrations": {},
+              "description": "description"
+            }
+          ]
+        }
+      },
+      "config": {
+        "values": {
+          "paragonLink": true,
+          "description": "Sync events with Google Calendar",
+          "overview": "Connect your Google account and sync events with your Google Calendar. Increase your productivity by ensuring your schedule is always up to date - without manual data entry.\n \nOur Google Calendar integration enables you to:\n \n• Automatically add new events to your Google Calendar\n• Sync events from your Google Calendar",
+          "accentColor": "#3966D0",
+          "workflowMeta": {
+            "4ee4af41-246d-443f-8a45-dc4c598a44d1": {
+              "id": "4ee4af41-246d-443f-8a45-dc4c598a44d1",
+              "hidden": false,
+              "defaultEnabled": false,
+              "inputs": [],
+              "infoText": "Add a user-facing description of this workflow"
+            }
+          },
+          "sharedMeta": {
+            "inputs": []
+          }
+        }
+      }
+    },
+    "close": {
+      "id": "2228b6e9-f8da-49db-a175-2c7cbecc79b1",
+      "name": "close",
+      "workflows": {},
+      "config": {
+        "values": {
+          "paragonLink": true,
+          "description": "Sync records from Close",
+          "overview": "Connect to your Close account to manage your opportunities, contacts, and leads in Close. Increase your team’s productivity by keeping your Close account up to date - without manual data entry.\n   \nOur Close integration enables you to:\n   \n• Create or update records in your Close account\n• Sync records from your Close account\n• Receive webhooks when records are created or updated in your Close account",
+          "accentColor": "#000000",
+          "workflowMeta": {},
+          "sharedMeta": {
+            "inputs": []
+          }
+        }
+      }
+    }
+  },
+  "projectId": "8b2973d8-6297-4aeb-ad2e-00f9f13bc472",
+  "persona": {
+    "meta": {}
+  }
+}
