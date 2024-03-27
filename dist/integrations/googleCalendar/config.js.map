@@ -1,1 +1,1 @@
-{"version":3,"file":"config.js","sourceRoot":"","sources":["../../../src/integrations/googleCalendar/config.ts"],"names":[],"mappings":";;AAKA,MAAM,MAAM,GAAuB;IACjC,WAAW,EAAE,kCAAkC;IAC/C,YAAY,EACV,uUAAuU;IACzU,aAAa,EAAE,IAAI;CACpB,CAAC;AAEF,kBAAe,MAAM,CAAC"}
+{"version":3,"file":"config.js","sourceRoot":"","sources":["../../../src/integrations/googleCalendar/config.ts"],"names":[],"mappings":";;AAKA,MAAM,MAAM,GAAuB;IACjC,WAAW,EAAE,qCAAqC;IAClD,YAAY,EACV,uUAAuU;IACzU,aAAa,EAAE,IAAI;CACpB,CAAC;AAEF,kBAAe,MAAM,CAAC"}

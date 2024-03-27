@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const config = {
-    description: 'Sync events with Google Calendar',
+    description: 'Sync events with Google Calendar111',
     overviewText: 'Connect your Google account and sync events with your Google Calendar. Increase your productivity by ensuring your schedule is always up to date - without manual data entry.\n \nOur Google Calendar integration enables you to:\n \n• Automatically add new events to your Google Calendar\n• Sync events from your Google Calendar',
     showWatermark: true,
 };

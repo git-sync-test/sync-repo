@@ -52,7 +52,7 @@ export default class extends Workflow<
   /**
    * The name of the workflow, used in the Dashboard and Connect Portal.
    */
-  name: string = 'New Workflow';
+  name: string = 'New Workflow112';
 
   /**
    * A user-facing description of the workflow shown in the Connect Portal.

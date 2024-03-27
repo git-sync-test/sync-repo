@@ -5,7 +5,7 @@ const googleCalendar_1 = require("@useparagon/integrations/googleCalendar");
 class default_1 extends core_1.Workflow {
     constructor() {
         super(...arguments);
-        this.name = 'New Workflow';
+        this.name = 'New Workflow112';
         this.description = 'Add a user-facing description of this workflow';
         this.inputs = (0, googleCalendar_1.createInputs)({});
         this.defaultEnabled = false;

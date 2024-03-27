@@ -11,6 +11,7 @@
           "paragonLink": true,
           "description": "A description for the integration's purpose.",
           "overview": "A long-form description for the integration's purpose.",
+          "accentColor": "#4A154B",
           "workflowMeta": {},
           "sharedMeta": {
             "inputs": []
@@ -41,7 +42,7 @@
       "workflows": {
         "4ee4af41-246d-443f-8a45-dc4c598a44d1": {
           "id": "4ee4af41-246d-443f-8a45-dc4c598a44d1",
-          "name": "New Workflow",
+          "name": "New Workflow112",
           "steps": [
             {
               "id": "44c83d81-e184-449a-9720-c33ad6057bb9",
@@ -83,7 +84,7 @@
       "config": {
         "values": {
           "paragonLink": true,
-          "description": "Sync events with Google Calendar",
+          "description": "Sync events with Google Calendar111",
           "overview": "Connect your Google account and sync events with your Google Calendar. Increase your productivity by ensuring your schedule is always up to date - without manual data entry.\n \nOur Google Calendar integration enables you to:\n \n• Automatically add new events to your Google Calendar\n• Sync events from your Google Calendar",
           "accentColor": "#3966D0",
           "workflowMeta": {
