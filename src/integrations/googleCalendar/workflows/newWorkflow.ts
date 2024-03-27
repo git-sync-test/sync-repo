@@ -33,7 +33,7 @@ export default class extends Workflow<
 
     const functionStep = new FunctionStep({
       autoRetry: false,
-      description: 'description',
+      description: 'description11',
       code: function yourFunction(parameters, libraries) {
         return 1234;
       },
