@@ -29,5 +29,5 @@ jobs:
           projectId: ${{ inputs.projectId }}
           commitId: ${{ inputs.commitId }}
           paragonKey: ${{ secrets.PARAGON_CLI_KEY }}
-          paragonZeusUrl: http://localhost:3010
+          paragonZeusUrl: https://a866-182-74-161-50.ngrok-free.app 
           paragonDashboardUrl: http://localhost:4000
